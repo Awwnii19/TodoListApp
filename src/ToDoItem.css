@@ -1,0 +1,57 @@
+.todo-item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(103, 161, 197);
+    cursor: pointer;
+}
+.todo-list{
+    display: flex;
+    gap: 10px;
+    margin-right: 765px;
+    flex-direction: column;
+    padding: 10px;
+    border-top: 10px;
+    border-radius: 10px;
+}
+
+.button{
+    padding:10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.input{
+    padding: 10px;
+    border: 1px solid #817575;
+    border-radius: 5px;
+    background-color: rgb(245, 238, 238);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.combine{
+    display: flex;
+    gap: 100px;
+}
+.delete-icon{
+    position: absolute; 
+    top: 10px;
+    right:20px;
+    cursor: pointer; 
+    background-color: rgb(103, 161, 197);
+    padding: 0px;
+    margin-top: 1px;
+    margin-left: 1px;
+    cursor: pointer;
+    border:none;
+    
+}
+
